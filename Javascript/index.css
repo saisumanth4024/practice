@@ -1,0 +1,76 @@
+-------> Event Bubbling & Capturing
+
+ /* body * {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid red;
+} 
+
+
+/* -------> Event Delegation */
+/* .products {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  border: none;
+}
+
+span {
+  width: 100px;
+  height: 100px;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */ */
+
+
+/* -------> Modal  */
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .modalContainer {
+    display: flex;
+    position: absolute;
+    top: 0;
+    background-color: rgba(145, 34, 34, 0.5);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+  }
+  
+  .modal {
+    display: none;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  button{
+    z-index: 2;
+  } */
+
+  .post_container{
+    border: 2px solid black;
+    display: flex;
+    height: 40vh;
+    width: 60%;
+  }
+
+  h1{
+    color: red;
+  }
+
+  p{
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+  }
